@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic; 
+}
+header{
+	background-image: url(../a1.jpg);
+	height: 100%;	
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.logo img{
+	float: left;
+	opacity: 0.8px;
+	max-width: 80px;
+	width: 100px;
+	border-radius: 300%;
+	border-color: black;
+	height: auto;
+	padding: 5px;
+	margin-left: 15px;
+}
+
+.c19{
+	justify-content: center;
+	font-variant-position:unset;
+	font-size: larger;
+	font-family: italic;
+	background-color: transparent;
+	margin-top: 88px;
+	color: black;
+
+}
+.c20{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 2px 16px;
+}
+.search{
+	text-align: right;
+	margin-left: 50px;
+    padding: 11px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+	
+}
+#Search{
+    padding: 3px;
+    font-size: medium;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+}
+.log{
+	font-size: xx-large;
+	align-items: baseline;
+	padding: 15px 50px;
+    display: inline-flex;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    padding: 2px 30px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+	color: greenyellow;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.login-box{
+	display: block;
+    text-align: center;
+	margin-top: 120px;
+    width: 50%;
+    text-align: -webkit-center;
+
+}
+.login{
+	font-size: 60px;
+    font-style: italic;
+    font-family: fangsong;
+    color: seashell;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    margin-left: 43px;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.sign{
+	
+	cursor: zoom-in;
+}

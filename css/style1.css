@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	background: url(../f2.jpg);
+	background-size: cover; 
+}
+
+
+
+
+
+
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	color: white;
+}
+.login-box h1{
+	float: top;
+	font-size: 40px;
+	border-bottom: 10px solid #4caf50;
+	margin-bottom: 25px;
+	padding: 10px 0
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
