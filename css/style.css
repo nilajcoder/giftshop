@@ -1,3 +1,9 @@
+:root {
+	--primary: #F25C5C;
+	--accent: #D9AE5F;
+	--text-primary: #FFFFFE;
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -97,4 +103,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 .sign{
 	
 	cursor: zoom-in;
+}
+
+.btn-primary {
+	background-color: var(--primary);
+	color: var(--text-primary);
+	border-radius: 8px;
 }

@@ -1,69 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title> Gift Shop</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Scripts -->
+    <script src="./js/materialize.js"></script>
+    <title>Gift Shop</title>
 </head>
+
 <body>
-<header>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">Gift Shop</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="./IMG/login-bg.jpg" alt="" class="responsive-img">
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Login</span>
+                            <form action="">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="text" class="validate">
+                                        <label for="email">Email ID</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input id="password" type="password" class="validate">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary">Login</a>
+                            </form>
 
-			
-	
-		<div class="c20">
-      
-        <p>
-          <div class="logo">
-            <img src="IMG/logo.jpg">
-          </div>
-         <div class="log">
-        <span class="glyphicon glyphicon-home"></span>    
-       <hr>
-         <a href="#">
-          <span class="glyphicon glyphicon-th-list"></span>
-        </a>
-        <a href="#">
-          <span class="	glyphicon glyphicon-info-sign"></span>
-        </a>
-        <a href="#">
-          <span class="	glyphicon glyphicon-shopping-cart"></span>
-        </a>
-        <a href="#">
-          <span class="	glyphicon glyphicon-phone-alt"></span>
-        </a> 
-      </div> 
-      </p>
-      
-    <div class="search">
-      <input type="text" name="Search" id="Search">
-      <button class="btn btn-sm"><h5>Search</h5></button>
-  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-</div>
-		</div>
-
-    <div class="login-box">
-      <div class="login">Login</div>
-      <hr width="25%">
-      <div class="textbox">
-       <input type="text" placeholder="Username" name="" value="">
-      </div>
-      <hr width="25%">
-      <div class="textbox">
-       <input type="password" placeholder="password" name="" value="">
-       <hr width="25%">
-      </div>
-    
-       <input class="btn" type="button" name="" value="sign in" <h5>  New User?<a href="http://127.0.0.1:5500/register.html"> <b>Sign Up</b></a></h5>
-       
+        </section>
+        <h6 class="center">In this pandemic, let's join our hands together and help each other #COVID19</h6>
     </div>
-	<div class="c19">
-		<marquee>
-	<h1>In this pandemic, let's join our hands together and help each other
-		#COVID19
-	</h1>
-	</marquee>
-	</div>
-  </body>
-</header>
+</body>
+
+</html>
